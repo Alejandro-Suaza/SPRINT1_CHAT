@@ -1,0 +1,48 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "nombre": "Usuario 1",
+        "phoneNumber": "123456789",
+        "password": "contrasena1",
+        "img": "url_imagen_1",
+        "flag": false,
+        "info": "Información del Usuario 1",
+        "lastTimeOnline": "2023-08-24T12:00:00Z"
+      },
+      {
+        "id": 2,
+        "nombre": "Usuario 2",
+        "phoneNumber": "987654321",
+        "password": "contrasena2",
+        "img": "url_imagen_2",
+        "flag": true,
+        "info": "Información del Usuario 2",
+        "lastTimeOnline": "2023-08-23T18:30:00Z"
+      }
+    ],
+    "messages": [
+      {
+        "id": 1,
+        "idUser1": 1,
+        "idUser2": 2,
+        "conversations": [
+          {
+            "sendBy": 1,
+            "date": "2023-08-24",
+            "hour": "08:30:00",
+            "message": "¡Hola! ¿Cómo estás?",
+            "flag": true
+          },
+          {
+            "sendBy": 2,
+            "date": "2023-08-24",
+            "hour": "09:15:00",
+            "message": "¡Hola! Estoy bien, gracias.",
+            "flag": false
+          }
+        ]
+      }
+    ]
+  }
+  
